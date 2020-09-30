@@ -13,43 +13,38 @@ nav{
     box-shadow: 5px 5px 12px -4px rgba(0,0,0,0.5);
 }
 
-.logo{
-    color: white;
-    letter-spacing: 2px;
-    font-size: 20px;
-    margin-left: 130px;
-}
-
 .logo h1{
+    font-size: 2em;
+    letter-spacing: 2px;
     font-family: 'Pacifico', cursive;
     color: white;
+    margin-left: 30px;
+    align-self: center;
 }
 
 .navbar{
-    width: 30%;
-    margin-top: 12px;
-    margin-left: 70px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
 }
 
 .navbar a{
-    padding: 12px;
     color: white;
     text-decoration: none;
-    font-size: 30px;
-    margin: 0px 6px;
-}
-
-.navbar a:active{
-    color: #ff007f;
+    font-size: 22px;
+    width: 40px;
 }
 
 .navbar  a:hover{
-    color: black;
+    font-size: 32px;
 }
 
 .navbar .active{
     color: #ff007f;
 }
+
 
 /*----MAIN----*/
 

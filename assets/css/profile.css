@@ -90,9 +90,9 @@ nav{
 
 .pp{
     position: absolute;
-    font-size: 20px;
     text-align: center;
     background-color: #f1f1f1;
+    font-size: 24px;
     width: 4.6vw;
     height: 4.6vw;
     border-radius: 50%;
@@ -104,7 +104,8 @@ nav{
 }
 
 .pp i{
-    font-size: 1.3em;
+    font-size: 1em;
+    position: relative;
 }
 
 .pp:hover{
@@ -121,13 +122,14 @@ nav{
 }
 
 .dropbtn{
-    height: 70px;
-    width: 70px;
+    height: 30px;
+    width: 30px;
     float: right;
-    font-size: 30px;
+    margin-right: 20px;
+    font-size: 2em;
     text-align: center;
     display: block;
-    background-color: transparent;
+    background-color: #3B3B98;
     border: none;
     outline: none;
 }
@@ -142,25 +144,27 @@ nav{
     background-color: #e74c3c;
 }
 
-.bio-name span{
+.bio-details .bio-name span{
     font-size: 1em;
+    text-align: center;
 }
 
 .strength{
-    width: 100%;
+    display: flex;
+    width: 70%;
     height: auto;
-    /* background-color: turquoise; */
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
+    margin: auto;
+    background-color: #F8EFBA;
     font-family: 'Montserrat', sans-serif;
-    word-spacing: 35px;
+    /* word-spacing: 35px; */
+    justify-content: space-between;
     margin-top: 10px;
 }
 
 .strength a{
     text-decoration: none;
     color: black;
+    font-size: 1em;
 }
 
 .trigger{
@@ -336,4 +340,8 @@ nav{
         width: 80%;
         margin: auto;
     } 
+
+    .pp i{
+        font-size: 80%;
+    }
 }
