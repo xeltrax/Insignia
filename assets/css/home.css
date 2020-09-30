@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around; /* Creating a space between the logo and the categories */
+    align-items: center;
+    min-height: 8vh;
+    background-color: #7F00FF;
+    box-shadow: 5px 5px 12px -4px rgba(0,0,0,0.5);
+}
+
+.logo{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-left: 130px;
+}
+
+.logo h1{
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+.navbar{
+    width: 30%;
+    margin-top: 12px;
+    margin-left: 70px;
+}
+
+.navbar a{
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0px 6px;
+}
+
+.navbar  a:hover{
+    font-size: 32px;
+}
+
+.navbar .active{
+    color: #ff007f;
+    font-size: 30px;
+}
+
+/*----MAIN----*/
+
+.main{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 12px;
+}
+
+/*-----SEARCH BAR-----*/
+
+.sbar{
+    width: 100%;
+    height: auto;
+    padding: 35px 0px;
+}
+
+#search{
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding: 12px 16px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#search:focus{
+    border: 1px solid #00a8ff;
+}
+
+#display{
+    margin: auto;
+    width: 59.5%;
+    border-radius: 0px 0px 4px 4px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #ecf0f1;
+    border-radius: 0px 0px 4px 4px;
+}
+  
+li a {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: #00a8ff;
+    color: white;
+}
+
+
+/*------HOME Page-----*/
+.com-post{
+    margin-bottom: 35px;
+}
+
+.post{
+      background-color: darkorchid;
+      width: 100%;
+      height: 500px;
+}
+
+.post-options{
+    background-color: #ecf0f1;
+    width: 100%;
+    height: 50px;
+}
+
+.pic{
+    height: 45px;
+    width: 45px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #ff007f;
+    float: left;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+
+
+.person{
+    margin-top: 10px;
+    margin-left: 15px;
+    float: left;
+    font-size: 26px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.post-options i{
+    font-size: 42px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+.post-detail{
+      background-color: #ecf0f1;
+}
+
+.post-detail a i{
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}

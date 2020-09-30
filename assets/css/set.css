@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around; /* Creating a space between the logo and the categories */
+    align-items: center;
+    min-height: 8vh;
+    background-color: #7F00FF;
+    box-shadow: 5px 5px 12px -4px rgba(0,0,0,0.5);
+}
+
+.logo{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-left: 130px;
+}
+
+.logo h1{
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+.navbar{
+    width: 30%;
+    margin-top: 12px;
+    margin-left: 70px;
+}
+
+.navbar a{
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0px 6px;
+}
+
+.navbar a:active{
+    color: #ff007f;
+}
+
+.navbar  a:hover{
+    color: black;
+}
+
+.navbar .active{
+    color: #ff007f;
+}
+
+/*----MAIN----*/
+
+.main{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 12px;
+}
+
+/*------Profile section-------*/
+
+.profile-section{
+    width: 100%;
+    height: 300px;
+}
+
+.abc{
+    float: left;
+    width: 40%;
+    height: 300px;
+}
+
+.xyz{
+    float: right;
+    width: 60%;
+    height: 300px;
+    display: block;
+    padding: 125px 0;
+}
+
+/* .done{
+    padding: 8px 10px;
+    font-size: 16px;
+    color: white;
+    width: 30%;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: #ED4C67;
+}
+
+.done:hover{
+    background-color: #CD3A52;
+} */
+
+/*--------Source-----*/
+
+.upload-preview {border-radius:4px;width: 200px;height: 200px;}
+		#body-overlay {background-color: rgba(0, 0, 0, 0.6);z-index: 999;position: absolute;left: 0;top: 0;width: 100%;height: 100%;display: none;}
+		#body-overlay div {position:absolute;left:50%;top:50%;margin-top:-32px;margin-left:-32px;}
+		#targetOuter{	
+			position:relative;
+			text-align: center;
+			background-color: #F0E8E0;
+			margin: 20px auto;
+			width: 200px;
+			height: 200px;
+			border-radius: 4px;
+		}
+		.btnSubmit {
+			background-color: #474787;
+			border-radius: 4px;
+			padding: 10px;
+			border: #333 1px solid;
+			color: #FFFFFF;
+			width: 200px;
+            cursor:pointer;
+            margin: auto;
+            display: block;
+        }
+        
+        .btnSubmit:hover{
+            background-color: #706fd3;
+        }
+
+		.inputFile{
+			margin-top: 0px;
+			left: 0px;
+			right: 0px;
+			top: 0px;
+			width: 200px;
+			height: 36px;
+			background-color: #FFFFFF;
+			overflow: hidden;
+			opacity: 0;
+			position: absolute;
+			cursor: pointer;
+		}
+		.icon-choose-image {
+			position: absolute;
+			opacity: 0.5;
+			top: 50%;
+			left: 50%;
+			margin-top: -24px;
+			margin-left: -24px;
+			width: 48px;
+			height: 48px;
+			cursor:pointer;
+			
+		}
+		#profile-upload-option{
+			display:none;
+			position: absolute;
+			top: 163px;
+			left: 23px;
+			margin-top: -24px;
+			margin-left: -24px;
+			border: #d8d1ca 1px solid;
+			border-radius: 4px;
+			background-color: #F0E8E0;
+			width: 200px;
+		}
+		.profile-upload-option-list{
+			margin: 1px;
+			height: 25px;
+			border-bottom: 1px solid #cecece;
+			cursor: pointer;
+			position: relative;
+			padding:5px 0px;
+		}
+		.profile-upload-option-list:hover{
+			background-color: #fffaf5;
+		}

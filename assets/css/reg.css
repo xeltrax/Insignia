@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to left, #da22ff, #9733ee); 
+}
+
+/*-------------CONTAINER-----------*/
+
+.container{
+    width: 52%;
+    height: 400px;
+    margin: auto;
+    margin-top: 10%;
+    background-color: white;
+    box-shadow: 10px 10px 25px -4px rgba(0,0,0,0.75);
+}
+
+
+/*---Login---*/
+
+.log{
+    width: 40%;
+    height: 400px;
+    float: left;
+    background-image: linear-gradient(rgba(128,0,128,0.7), rgba(128,0,128,0.7)),url('../img/back.jpg');
+}
+
+.head1{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.head1 h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    position: relative;
+    left: 15px;
+    top: 13px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.head2{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 120px;
+}
+
+.head2 h2{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #e8e8e6;
+}
+
+.head3{
+    width: 100%;
+    height: auto;
+}
+
+.head3 h5{
+    display: block;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 8px;
+    color: #dedede;
+}
+
+.log a{
+    border: 1px solid white;
+    border-radius: 20px;
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 8px 10px;
+}
+
+.log label{
+    display: block;
+    text-align: center;
+    color: #b5b5b3;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+    margin-top: 12px;
+}
+
+.log a:hover{
+    background-color: #e8e8e6;
+    color: #9733ee;
+    font-weight: bold;
+}
+/*---Signup---*/
+
+.sign{
+    width: 60%;
+    height: 400px;
+    float: right;
+}
+
+/* For create account heading container*/
+.create{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 13px;
+}
+
+.create h2{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 28px;
+}
+
+/*----INPUTS----*/
+
+.name{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.name2{
+    width: 63%;
+    margin: auto;
+    height: auto;
+}
+
+#first{
+    width: 47%;
+    float: left;
+    padding: 8px 10px;
+    border: 1px solid #b5b5b3;
+    border-radius: 4px;
+    margin-right: 18px;
+}
+
+#second{
+    width: 47%;
+    padding: 8px 10px;
+    border: 1px solid #b5b5b3;
+    border-radius: 4px;
+}
+
+input[type="email"]{
+    display: block;
+    width: 63%;
+    margin: auto;
+    margin-top: 12px;
+    border-radius: 4px;
+    border: 1px solid #b5b5b3;
+    padding: 8px 10px;
+}
+
+input[type="password"]{
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+    border: 1px solid #b5b5b3;
+    padding: 8px 10px;
+    width: 63%;
+    margin-top: 12px;
+}
+
+input[type="submit"]{
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 12px 20px;
+    width: 100px;
+    background-color: rgba(128,0,128,0.7);
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgba(99, 2, 99, 0.7);
+}
+
+#first,
+#second,
+input[type="email"],
+input[type="password"]:focus{
+    outline-color: #3fa9f0;
+}
+
+
+/*---Error---*/
+#msg{
+    color: red;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.success{
+    text-align: center;
+    color: #2ecc71;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: block;
+}

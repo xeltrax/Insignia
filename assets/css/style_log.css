@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom right,#fc00ff,#00dbde);
+}
+
+/* For Div */
+.log{
+    border: hidden;
+    border-radius: 5px;
+    width: 19vw;
+    height: 400px;
+    margin: auto;
+    margin-top: 10%;
+    background-color: white;
+    box-shadow: 10px 10px 25px -4px rgba(0,0,0,0.75);
+}
+
+/*----------- Logo --------------*/
+
+#logo-name {
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 1px;
+    color: #edf0ee;
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+/* For h1 */
+h1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    margin-bottom: 70px;
+}
+
+/* For input Fields */
+input[type="email"],[type="password"]{
+    padding: 8px 10px;
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 1px solid #ababab;
+    width: 70%;
+    outline: none;
+    font-size: 14px;
+    background-color: white;
+    transition: border 0.2s;
+    transition-timing-function: ease;
+}
+
+input[type="email"]:focus{
+    border-bottom: 2px solid #00dbde;
+}
+
+input[type="password"]:focus{
+    border-bottom: 2px solid #00dbde;
+}
+
+/* For Submit Button */
+input[type="submit"]{
+    margin: auto;
+    margin-bottom: 20px;
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    display: block;
+    padding: 8px 12px;
+    background-image: linear-gradient(to right,#fc00ff,#00dbde);
+    width: 100px;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),linear-gradient(to bottom right,#fc00ff,#00dbde);
+}
+
+/* For label */
+.lb{
+    text-align: center;
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* For Anchor */
+.sign{
+    text-decoration: none;
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+/*For error Printing */
+.error{
+    color: red;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}

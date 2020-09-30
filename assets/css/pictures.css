@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----NAVIGATION-----*/
+nav{
+    display: flex;
+    min-height: 8vh;
+    background-color: #7F00FF;
+    box-shadow: 0px 2px 8px -4px rgba(0,0,0,0.5);
+}
+
+.logo{
+    justify-content: space-around;
+    padding: 15px 0px 4px 0px;
+    display: block;
+    height: auto;
+    overflow: visible;
+    margin-left: 20%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+}
+
+/*----MAIN----*/
+.main{
+    width: 60%;
+    height: auto;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 35px;
+    display: block;
+}
+
+/*------HOME Page-----*/
+.com-post{
+    margin-bottom: 35px;
+}
+
+.post{
+    width: 100%;
+    height: 500px;
+}
+
+.post-options{
+    background-color: #ecf0f1;
+    width: 100%;
+    height: 53px;
+}
+
+.userpost img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 447px;
+}
+
+.pic{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #ff007f;
+    float: left;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+
+.pic img{
+    border-radius: 50%;
+    object-fit: contain;
+    height: 45px;
+    width: 45px;
+}
+
+.person{
+    margin-top: 20px;
+    margin-left: 15px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.post-options i{
+    font-size: 42px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+.post-detail{
+    background-color: #ecf0f1;
+}
+
+.post-detail a i{
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*-----------DELETE-OPTIONS-------------*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 138px;
+    height: 35px;
+    right: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 48px;
+    border-radius: 6px;
+}
+
+.dropdown-content input[type="submit"]{
+    border: none;
+    border-radius: 6px;
+    margin: auto;
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: black;
+    padding: 8px 0;
+    display: block;
+    width: 100%;
+    outline-style: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content:hover {background-color: #dddddd;}
