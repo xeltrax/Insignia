@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search</title>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="vendors/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/home.css">
@@ -14,7 +14,7 @@
 <body>
     <nav>
         <div class="logo">
-            <h1>Pitchfork</h1>
+            <h1>Insignia</h1>
         </div>
         
         <div class="navbar">

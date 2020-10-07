@@ -20,7 +20,7 @@ require 'includes/form_handlers/register_handler.php';
     <div class="container">
         <div class="log">
             <div class="head1">
-                <h1>Pitchfork</h1>
+                <h1>Insignia</h1>
             </div>
             <div class="head2">
                 <h2>Welcome</h2>
