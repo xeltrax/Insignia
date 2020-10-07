@@ -96,7 +96,7 @@ if(isset($_POST['upload'])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Insignia</title>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
@@ -210,6 +210,17 @@ if(isset($_POST['upload'])){
         </div>
 
     </section>
+
+    <footer>
+        <div class="nav2">
+            <a href="mno.php?id=<?php echo $myid;?>"><i class="ion-home"></i></a> 
+            <a href="search.php?id=<?php echo $myid;?>"><i class="ion-android-search"></i></a> 
+            <a href="favorite.php?id=<?php echo $myid;?>"><i class="ion-android-favorite"></i></a> 
+            <a href="message.php?id=<?php echo $myid;?>"><i class="ion-ios-paperplane"></i></a>
+            <a href="#" class="active"><i class="ion-person"></i></a>
+        </div>
+    </footer>
+
     <script>
         var modal = document.querySelector(".modal");
         var trigger = document.querySelector(".trigger");
