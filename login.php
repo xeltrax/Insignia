@@ -34,11 +34,11 @@ if (isset($_POST['sub'])) {
     <title>Login</title>
     <link rel="stylesheet" href="assets/css/style_log.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Quicksand:wght@600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="logo">
-        <h1 id="logo-name">Pitchfork</h1> 
+        <h1 id="logo-name">Insignia</h1> 
     </div>
     <div class="log">
         <form action="login.php" method="POST">

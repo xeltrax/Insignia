@@ -12,10 +12,12 @@ body{
 .log{
     border: hidden;
     border-radius: 5px;
-    width: 19vw;
+    max-width: 232px;
     height: 400px;
     margin: auto;
-    margin-top: 10%;
+    /* margin-top: 10%; */
+    position: relative;
+    top: 18%;
     background-color: white;
     box-shadow: 10px 10px 25px -4px rgba(0,0,0,0.75);
 }
@@ -23,7 +25,7 @@ body{
 /*----------- Logo --------------*/
 
 #logo-name {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Lobster', cursive;
     letter-spacing: 1px;
     color: #edf0ee;
     float: left;
